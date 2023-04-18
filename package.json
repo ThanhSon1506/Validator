@@ -1,0 +1,14 @@
+{
+  "name": "is-validate",
+  "version": "1.0.0",
+  "description": "Is the libary help validate form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "validator"
+  ],
+  "author": "Web Dew",
+  "license": "ISC"
+}
