@@ -1,5 +1,5 @@
 {
-  "name": "@coderthanhson/validator",
+  "name": "dew-validator",
   "version": "1.0.0",
   "description": "Is the libary help validate form",
   "main": "index.js",
@@ -10,5 +10,8 @@
     "validator"
   ],
   "author": "Web Dew",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dew-validator": "^1.0.0"
+  }
 }
