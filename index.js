@@ -229,5 +229,16 @@ Validator.isConfirmed = (selector, getConfirmValue, message) => {
     }
 }
 // ===============================================================================
+// 5. Kiểm tra theo regex
+Validator.isRegex = (selector, valueRegex, message) => {
+    return {
+        selector,
+        test: (value) => {
+            let regex = valueRegex;
+            return regex.test(value) ? undefined : message || "Trường này phải đúng định dạng";
+        }
+    };
+}
 
-module.exports = Validator;
+
+export default Validator;
